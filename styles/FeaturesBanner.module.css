@@ -1,0 +1,68 @@
+.contentWrapperHeader {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png"), linear-gradient(to right top, #cf4af3, #e73bd7, #f631bc, #fd31a2, #ff3a8b, #ff4b78, #ff5e68, #ff705c, #ff8c51, #ffaa49, #ffc848, #ffe652);
+    border-radius: 14px;
+    padding: 20px 40px;
+}
+@media screen and (max-width: 415px) {
+    .contentWrapperHeader {
+        padding: 20px;
+    }
+}
+.imgContent {
+    font-weight: 500;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.imgContent .svg {
+    width: 28px;
+    margin-right: 14px;
+}
+
+.contentText {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 16px;
+    line-height: 1.7em;
+    color: #ebecec;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.contentWrapperContext {
+    max-width: 350px;
+}
+
+.contentButton {
+    background-color: #3a6df0;
+    border: none;
+    padding: 8px 26px;
+    color: #fff;
+    border-radius: 20px;
+    margin-top: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    white-space: nowrap;
+}
+
+.contentWrapperImg {
+    width: 186px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    margin-top: -25px;
+    -o-object-position: center;
+    object-position: center;
+}
+@media screen and (max-width: 570px) {
+    .contentWrapperImg {
+        width: 110px;
+    }
+}
