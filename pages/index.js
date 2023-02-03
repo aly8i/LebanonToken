@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import AppBoard from '../components/AppBoard'
+import App from '../components/App'
 
 export default function Home() {
   
@@ -9,11 +9,11 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Lebanon Token</title>
-        <meta name="description" content="Lebanese Digital Wallet" />
+        <meta name="description" content="Lebanon Token" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <AppBoard/>
+        <App/>
       </main>
     </div>
   )
