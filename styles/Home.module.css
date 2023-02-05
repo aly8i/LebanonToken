@@ -1,18 +1,19 @@
 .container {
-  /* /* padding: 0 2rem; */
-  /* height: 300vh; */
   overflow: hidden;
   height: 100vh;
   width: 100vw;
+}
+.appwrapper{
+  display: flex;
+  flex-direction: column;
 }
 .title2{
   z-index: 5000;
 }
 .main {
-  z-index: 600;
+  z-index: 700;
   min-height: 100vh;
-  overflow: hidden;
-  height: 100vh;
+  /* height: 100vh; */
   padding: 0 0;
   flex: 1;
   display: flex;
@@ -27,6 +28,7 @@
   padding: 2rem 0;
   justify-content: center;
   align-items: center;
+  z-index: 500;
 }
 
 .footer a {

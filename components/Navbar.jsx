@@ -11,9 +11,9 @@ const Navbar = ({nav}) => {
         return(
           <>
             <div onClick={()=>{router.push("/")}} className={nav=="/"?(`${styles.menuLink} ${styles.a} ${styles.isActive}`):(`${styles.menuLink} ${styles.a}`)}>Home</div>
-            <div onClick={()=>{router.push("/about")}} className={nav=="/jobs"?(`${styles.menuLink} ${styles.a} ${styles.isActive}`):(`${styles.menuLink} ${styles.a}`)}>About us</div>
-            <div onClick={()=>{router.push("/contact")}} className={nav=="/talents"?(`${styles.menuLink} ${styles.a} ${styles.isActive}`):(`${styles.menuLink} ${styles.a}`)}>Contact us</div>
             <div onClick={()=>{router.push("/services")}} className={nav=="/employers"?(`${styles.menuLink} ${styles.a} ${styles.isActive}`):(`${styles.menuLink} ${styles.a}`)}>Services</div>
+            <div onClick={()=>{router.push("/about")}} className={nav=="/jobs"?(`${styles.menuLink} ${styles.a} ${styles.isActive}`):(`${styles.menuLink} ${styles.a}`)}>About us</div>
+            <div onClick={()=>{router.push("/contact")}} className={nav=="/talents"?(`${styles.menuLink} ${styles.a} ${styles.isActive}`):(`${styles.menuLink} ${styles.a}`)}>Contact us</div>     
           </>
         )
     }

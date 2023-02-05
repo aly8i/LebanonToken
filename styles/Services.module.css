@@ -1,0 +1,12 @@
+.wrapper{
+    height: calc(100vh);
+    position: relative;
+    top:60px;
+    width: 100px;
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    z-index: 2;
+}

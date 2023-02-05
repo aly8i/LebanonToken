@@ -1,0 +1,393 @@
+.wrapper{
+    height: calc(100vh);
+    position: relative;
+    top:60px;
+    width: 100px;
+    display: flex;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+    z-index: 2;
+}
+.statistics{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+}
+.stat{
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 13px;
+    padding: 20px;
+    min-width: 300px;
+}
+.stat:hover{
+    background-color: black;
+    border-color: white;
+}
+.title{
+    font-weight: 400;
+    font-size: large;
+    margin-bottom: 10px;
+}
+.gap{
+    height:170px;
+    width: 20px;
+}
+
+.cssTyping .textp {
+    background-color: black;
+    border-right: .15em solid white;
+    font-family: "Courier";
+    font-size: 14px;
+    white-space: nowrap;
+    text-justify:newspaper;
+    text-align: center;
+    overflow: hidden;
+  }
+  .cssTyping .textp:nth-child(1) {
+    width: 77.3em;
+    -webkit-animation: type 3s steps(40, end);
+    animation: type 2s steps(40, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  .cssTyping .textp:nth-child(2) {
+    width: 62.5em;
+    opacity: 0;
+    -webkit-animation: type2 3s steps(40, end);
+    animation: type2 2s steps(40, end);
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  .cssTyping .textp:nth-child(3) {
+    width: 73em;
+    opacity: 0;
+    -webkit-animation: type3 3s steps(40, end);
+    animation: type3 3s steps(40, end);
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  .cssTyping .textp:nth-child(4) {
+    width: 78em;
+    opacity: 0;
+    -webkit-animation: type4 3s steps(40, end);
+    animation: type3 3s steps(40, end);
+    -webkit-animation-delay: 8s;
+    animation-delay: 8s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  .cssTyping .textp:nth-child(5) {
+    width: 78.3em;
+    opacity: 0;
+    -webkit-animation: type5 3s steps(40, end), blink .5s step-end infinite alternate;
+    animation: type3 3s steps(40, end), blink .5s step-end infinite alternate;
+    -webkit-animation-delay:12s;
+    animation-delay: 12s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  .number1::after {
+    font: 800 40px system-ui;
+    content: counter(count);
+    animation: counter 3s linear forwards;
+    counter-reset: count 0;
+  }
+
+  .number2::after {
+    font: 800 40px system-ui;
+    content: counter(count);
+    animation: counter2 3s linear forwards;
+    counter-reset: count 0;
+  }
+  .number3::after {
+    font: 800 40px system-ui;
+    content: counter(count);
+    animation: counter3 3s linear forwards;
+    counter-reset: count 0;
+  }
+  @keyframes counter3 {
+    0%{
+      counter-increment: count 1;
+     }
+      5% {
+        counter-increment: count 621;
+      }
+      10% {
+        counter-increment: count 1212;
+      }
+      15% {
+         counter-increment: count 1631;
+       }
+       20% {
+        counter-increment: count 2142;
+      }
+      25% {
+        counter-increment: count 2777;
+      }
+      30% {
+        counter-increment: count 3421;
+      }
+      35% {
+        counter-increment: count 3965;
+      }
+      40% {
+        counter-increment: count 4211;
+      }
+      45% {
+         counter-increment: count 4823;
+       }
+     50% {
+       counter-increment: count 5312;
+     }
+     55% {
+       counter-increment: count 5862;
+     }
+     60% {
+       counter-increment: count 6254;
+     }
+     65% {
+       counter-increment: count 6524;
+     }
+     70% {
+       counter-increment: count 7285;
+     }
+     75% {
+        counter-increment: count 7896;
+      }
+      80% {
+        counter-increment: count 8245;
+      }
+      85% {
+        counter-increment: count 8564;
+      }
+      90% {
+        counter-increment: count 9247;
+      }
+      95% {
+        counter-increment: count 9854;
+      }
+     100% {
+       counter-increment: count 10220;
+     }
+   }
+  @keyframes counter2 {
+    0%{
+        counter-increment: count 1;
+       }
+        5% {
+          counter-increment: count 245;
+        }
+        10% {
+          counter-increment: count 550;
+        }
+        15% {
+           counter-increment: count 789;
+         }
+         20% {
+          counter-increment: count 1265;
+        }
+        25% {
+          counter-increment: count 1442;
+        }
+        30% {
+          counter-increment: count 1521;
+        }
+        35% {
+          counter-increment: count 1742;
+        }
+        40% {
+          counter-increment: count 2000;
+        }
+        45% {
+           counter-increment: count 2121;
+         }
+       50% {
+         counter-increment: count 2545;
+       }
+       55% {
+         counter-increment: count 2752;
+       }
+       60% {
+         counter-increment: count 3150;
+       }
+       65% {
+         counter-increment: count 3541;
+       }
+       70% {
+         counter-increment: count 3842;
+       }
+       75% {
+          counter-increment: count 4111;
+        }
+        80% {
+          counter-increment: count 4286;
+        }
+        85% {
+          counter-increment: count 4623;
+        }
+        90% {
+          counter-increment: count 4987;
+        }
+        95% {
+          counter-increment: count 5001;
+        }
+       100% {
+         counter-increment: count 5120;
+       }
+     }
+  @keyframes counter {
+    0% {
+        counter-increment: count 1;
+    }
+    14% {
+      counter-increment: count 1;
+    }
+    28% {
+      counter-increment: count 2;
+    }
+    36% {
+      counter-increment: count 3;
+    }
+    54% {
+      counter-increment: count 4;
+    }
+    65% {
+      counter-increment: count 5;
+    }
+    85% {
+      counter-increment: count 6;
+    }
+    100% {
+      counter-increment: count 7;
+    }
+  }
+  
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid white;
+    }
+    100% {
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid white;
+    }
+    100% {
+      border: none;
+    }
+  }
+  
+  @keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid white;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid white;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @keyframes type3 {
+    0% {
+        width: 0;
+      }
+      1% {
+        opacity: 1;
+      }
+      99.9% {
+        border-right: .15em solid white;
+      }
+      100% {
+        opacity: 1;
+        border: none;
+      }
+  }
+  
+  @keyframes type4 {
+    0% {
+        width: 0;
+      }
+      1% {
+        opacity: 1;
+      }
+      99.9% {
+        border-right: .15em solid white;
+      }
+      100% {
+        opacity: 1;
+        border: none;
+      }
+  }
+  @keyframes type5 {
+    0% {
+        width: 0;
+      }
+      1% {
+        opacity: 1;
+      }
+      99.9% {
+        border-right: .15em solid white;
+      }
+      100% {
+        opacity: 1;
+        border: none;
+      }
+  }
+
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @-webkit-keyframes blink {
+    50% {
+      border-color: tranparent;
+    }
+  }

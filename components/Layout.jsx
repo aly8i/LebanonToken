@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import Background from './Background'
 import { createTheme,ThemeProvider } from "@mui/material";
 const Layout = ({ children,url}) => {
 const darkTheme = createTheme({
@@ -17,6 +18,7 @@ const darkTheme = createTheme({
         <meta name="description" content="#1 Production Crew" />
         <link rel="icon" href="/lt.png" />
       </Head>
+      <Background/> 
       <div className={styles.container}>
         <main className={styles.main}>
           <Navbar nav={url}/>

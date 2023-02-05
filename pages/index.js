@@ -10,7 +10,7 @@ export default function Home() {
       <Head>
         <title>Lebanon Token</title>
         <meta name="description" content="Lebanon Token" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/lt.png" />
       </Head>
       <main className={styles.main}>
         <App/>
