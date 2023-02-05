@@ -2,6 +2,7 @@ import styles from  '../styles/Contact.module.css';
 import emailjs from 'emailjs-com';
 import { useRef } from 'react';
 import React from 'react'
+import Zoom from 'react-reveal/Zoom';
 
 const Contact = () => {
     const form = useRef();
@@ -16,10 +17,10 @@ const Contact = () => {
                 <h5 className={styles.h5}>Get In Touch</h5>
                     <div className={`${styles.container} ${styles.contactContainer}`}>
                         <form ref={form} className={styles.form} onSubmit={sendEmail}>
-                            <input className={styles.input} type = "text" name = 'name' placeholder = "Your Full Name" required />
-                            <input className={styles.input} type = "email" name ="email" placeholder = 'Your Email' required/>
-                            < textarea className={styles.textarea} name = "message" rows = "7" placeholder = "Your Message" required/>
-                            <button type = "submit" className = {`${styles.btn} ${styles.btnPrimary}`}> Send Message </button>
+                            <Zoom delay={300}><input className={styles.input} type = "text" name = 'name' placeholder = "Your Full Name" required /></Zoom>
+                            <Zoom delay={600}><input className={styles.input} type = "email" name ="email" placeholder = 'Your Email' required/></Zoom>
+                            <Zoom delay={900}>< textarea className={styles.textarea} name = "message" rows = "7" placeholder = "Your Message" required/></Zoom>
+                            <Zoom delay={1200}><button type = "submit" className = {`${styles.btn} ${styles.btnPrimary}`}> Send Message </button></Zoom>
                         </form>
                     </div>
             </section>

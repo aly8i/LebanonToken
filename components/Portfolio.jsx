@@ -6,6 +6,7 @@ import IMG4 from '../public/ma.jpg';
 import IMG5 from '../public/mis.jpg';
 import IMG6 from '../public/wa.jpg';
 import Image from 'next/image';
+import Roll from 'react-reveal/Roll';
 
 //data
 const data = [
@@ -61,12 +62,14 @@ function Portfolio() {
                     {
                         data.map(({id,image,title,github,demo}) => {
                             return (
+                                <Roll delay={id*500+200} up>
                                 <article key={id} className={styles.portfolioItem}>
                                     <div className={styles.portfolioItemiImage}>
                                         <Image className={styles.image} width={200} height={200} src={image} alt={title} />
                                     </div>
                                     <h3>{title}</h3>
                                 </article>
+                                </Roll>
                                 );
                         })
                     }
