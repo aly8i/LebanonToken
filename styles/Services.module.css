@@ -1,7 +1,7 @@
 .wrapper{
     height: calc(100vh);
     position: relative;
-    top:60px;
+    top:100px;
     width: 100px;
     display: flex;
     background-color: transparent;

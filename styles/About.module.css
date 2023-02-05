@@ -120,6 +120,44 @@
     animation: counter3 3s linear forwards;
     counter-reset: count 0;
   }
+  @media screen and ( max-width:1138px ) {
+    .wrapper{
+        scale: 0.9;
+    }
+}
+@media screen and ( max-width:1034px ) {
+    .wrapper{
+        scale: 0.8;
+        position: relative;
+        top:-30px
+    }
+}
+@media screen and ( max-width:932px ) {
+    .wrapper{
+        scale: 0.7;
+    }
+}
+
+@media screen and ( max-width:802px ) {
+    .wrapper{
+        scale: 0.6;
+    }
+}
+@media screen and ( max-width:680px ) {
+    .wrapper{
+        scale: 0.5;
+    }
+}
+@media screen and ( max-width:568px ) {
+    .wrapper{
+        scale: 0.4;
+    }
+}
+@media screen and ( max-width:464px ) {
+    .wrapper{
+        scale: 0.3;
+    }
+}
   @keyframes counter3 {
     0%{
       counter-increment: count 1;

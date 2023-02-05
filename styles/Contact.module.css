@@ -51,6 +51,7 @@
     border: 2px solid rgba(255, 255, 255, 0.7);
     border-radius: 0.5em;
     padding: 1.5em;
+    cursor:pointer;
 }
 .btn:hover{
     background-color: black;
@@ -58,6 +59,7 @@
 }
 .input:hover ,.textarea:hover{
     border-color: white;
+    background-color: black;
 }
 /*  MEDIA QUERIES( SMALL DEVICES )    */
 @media screen and ( max-width:600px ) {
@@ -69,5 +71,28 @@
 @media screen and ( max-width:1080px ) {
     .contactOption > .h5 {
         word-break: break-word;
+    }
+}
+@media screen and ( max-width:1238px ) {
+    .a{font-size : 6.8em;}
+}
+@media screen and ( max-width:1238px ) {
+    .contact {
+        scale:0.7;
+    }
+}
+@media screen and ( max-width:804px ) {
+    .contact {
+        scale:0.5;
+    }
+}
+@media screen and ( max-width:546px ) {
+    .contact {
+        scale:0.4;
+    }
+}
+@media screen and ( max-width:420px ) {
+    .contact {
+        scale:0.3;
     }
 }

@@ -23,10 +23,8 @@ const Footer = () => {
             </a>
             </div>
 
-            <div className={styles.row}>
+            <div className={`${styles.row} ${styles.links}`}>
               <ul>
-                <li><a href="#">Contact us</a></li>
-                <li><a href="#">Our Services</a></li>
                 <li><a href="#">Privacy Policy</a></li>
                 <li><a href="#">Terms & Conditions</a></li>
                 <li><a href="#">Career</a></li>

@@ -37,7 +37,10 @@
         color:gray;
         transition:0.5s;
     }
-    
+    .links{
+        position: relative;
+        right: 45px;
+    }
     .footer .row a:hover{
     color:#fff;
     }
@@ -55,7 +58,12 @@
     font-size:2em;
     margin:0% 1%;
     }
-    
+    @media (max-width:720px){
+        .links{
+            position: relative;
+            left:-30px;
+        }
+    }
     @media (max-width:720px){
         .footer .row ul li{
             margin:5px 5px;
